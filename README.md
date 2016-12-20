@@ -40,7 +40,7 @@ $test = $vatValidation->checkVat();
 $test = $vatValidation->isValid();
 ```
 
-You'll find more examples in the ``example.php`` file.
+You'll find more examples in the ``example`` folder.
 
 ## Returns
 
