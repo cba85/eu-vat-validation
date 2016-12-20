@@ -10,59 +10,59 @@ $vatValidation = new Validation($vatId);
 /*
  * Check VAT
  */
-$test = $vatValidation->checkVat();
-print_r($test);
+$vat = $vatValidation->checkVat();
+print_r($vat);
 
 /*
  * Check VAT Approx
  */
-$test = $vatValidation->checkVatApprox();
-print_r($test);
+$vat = $vatValidation->checkVatApprox();
+print_r($vat);
 
 /*
  * Is VAT ID valid ?
  */
-$test = $vatValidation->isValid();
-echo $test;
+$valid = $vatValidation->isValid();
+echo $valid;
 
 /*
  * Get country code of a VAT ID
  */
-$test = $vatValidation->getCountryCode();
-echo $test;
+$countryCode = $vatValidation->getCountryCode();
+echo $countryCode;
 
 /*
  * Get VAT number of a VAT ID
  */
-$test = $vatValidation->getVatNumber();
-echo $test;
+$vatNumber = $vatValidation->getVatNumber();
+echo $vatNumber;
 
 /*
  * Get name behind a VAT ID
  */
-$test = $vatValidation->getName();
-echo $test;
+$name = $vatValidation->getName();
+echo $name;
 
 /*
  * Get address behind a VAT ID
  */
-$test = $vatValidation->getAddress();
-echo $test;
+$address = $vatValidation->getAddress();
+echo $address;
 
 /*
  * Get trader name behind a VAT ID
  */
-$test = $vatValidation->getTraderName();
-echo $test;
+$traderName = $vatValidation->getTraderName();
+echo $traderName;
 
 /*
  * Get trader company type behind a VAT ID
  */
-$test = $vatValidation->getTraderName();
-echo $test;
+$traderCompanyType = $vatValidation->getTraderCompanyType();
+echo $traderCompanyType;
 
 /*
  * Get address behind a VAT ID
  */
-$test = $vatValidation->getTraderAddress();
-echo $test;
+$traderAddress = $vatValidation->getTraderAddress();
+echo $traderAddress;

@@ -32,12 +32,12 @@ $vatValidation = new Validation('FR12345678910');
 /*
  * Check VAT
  */
-$test = $vatValidation->checkVat();
+$vat = $vatValidation->checkVat();
 
 /*
  * Is VAT ID valid ?
  */
-$test = $vatValidation->isValid();
+$valid = $vatValidation->isValid();
 ```
 
 You'll find more examples in the ``example`` folder.
