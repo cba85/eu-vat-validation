@@ -14,6 +14,11 @@ class Validation
 {
 
     /**
+     * @const URL
+     */
+    const URL = 'http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl';
+
+    /**
      * @var SoapClient
      */
     private $client;
@@ -44,7 +49,7 @@ class Validation
         $this->countryCode = $this->convertVatIdToCountryCode();
         $this->vatNumber = $this->convertVatIdToVatNumber();
         $this->client = new stdClass;
-        $url = 'http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl';
+        $url = self::URL;
         $this->client = new SoapClient($url);
     }
 
