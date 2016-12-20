@@ -3,6 +3,7 @@
 namespace VatValidation;
 
 use stdClass;
+use Exception;
 use SoapClient;
 
 /**
