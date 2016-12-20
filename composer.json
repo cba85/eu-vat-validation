@@ -1,5 +1,5 @@
 {
-  "name": "cba85/vat-validation",
+  "name": "cba85/eu-vat-validation",
   "type": "library",
   "description": "A PHP component to verify the validity of a VAT number issued by any European Union Member State",
   "keywords": [
@@ -7,7 +7,7 @@
     "validation",
     "europe"
   ],
-  "homepage": "http://github.com/cba85/vat-validation",
+  "homepage": "http://github.com/cba85/eu-vat-validation",
   "license": "MIT",
   "authors": [
     {
