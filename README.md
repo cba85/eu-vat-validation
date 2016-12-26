@@ -72,4 +72,10 @@ Array(
 )
 ```
 
+## Tests
 
+If TVA rates evolve, change the results expected.
+
+```bash
+phpunit --bootstrap vendor/autoload.php tests/ValidationTest
+```
