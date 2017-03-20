@@ -11,7 +11,8 @@ class ValidationTest extends TestCase
         $expected = new stdClass;
         $expected->countryCode = 'FR';
         $expected->vatNumber = '12345678910';
-        $expected->requestDate = '2016-12-26+01:00';
+        $date = date('Y-m-d') . '+01:00';
+        $expected->requestDate = $date;
         $expected->valid = false;
         $expected->name = '---';
         $expected->address = '---';
