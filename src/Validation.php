@@ -87,7 +87,7 @@ class Validation
                 'vatNumber' => $this->vatNumber,
             ]);
         } catch(Exception $e){
-            print_r($e);
+            throw $e;
         }
         return $response;
     }
@@ -104,7 +104,7 @@ class Validation
                 'vatNumber' => $this->vatNumber,
             ]);
         } catch(Exception $e){
-            print_r($e);
+            throw $e;
         }
         return $response;
     }
