@@ -1,8 +1,8 @@
 # European VAT number validation
 
-A PHP package to verify the validity of a VAT number issued by any European Union Member State. 
+A PHP package to verify the validity of a VAT number issued by any European Union Member State.
 
-This package is basically calling web service provided by VIES for VAT number validation. 
+This package is basically calling web service provided by VIES for VAT number validation.
 
 VIES API documentation : http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl
 
@@ -77,5 +77,5 @@ Array(
 If TVA rates evolve, change the results expected.
 
 ```bash
-phpunit --bootstrap vendor/autoload.php tests/ValidationTest
+$ ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/ValidationTest
 ```

@@ -11,7 +11,7 @@ class ValidationTest extends TestCase
         $expected = new stdClass;
         $expected->countryCode = 'FR';
         $expected->vatNumber = '12345678910';
-        $date = date('Y-m-d') . '+01:00';
+        $date = date('Y-m-d') . '+02:00';
         $expected->requestDate = $date;
         $expected->valid = false;
         $expected->name = '---';
@@ -25,7 +25,7 @@ class ValidationTest extends TestCase
         $expected = new stdClass;
         $expected->countryCode = 'FR';
         $expected->vatNumber = '12345678910';
-        $date = date('Y-m-d') . '+01:00';
+        $date = date('Y-m-d') . '+02:00';
         $expected->requestDate = $date;
         $expected->valid = false;
         $expected->traderName = '---';
