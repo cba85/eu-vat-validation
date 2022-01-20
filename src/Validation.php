@@ -70,7 +70,7 @@ class Validation
      * @return mixed
      */
     public function convertVatIdToVatNumber() {
-        $vatNumber = substr($this->vatId, 2, 11);
+        $vatNumber = substr($this->vatId, 2);
         return $vatNumber;
     }
 
